@@ -1,0 +1,16 @@
+h3 {
+    color: $color5;
+    text-align: center;
+}
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 30px;
+
+    .card {
+        border: #000000 3px solid;
+    }
+}
