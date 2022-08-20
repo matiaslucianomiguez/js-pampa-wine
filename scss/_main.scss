@@ -1,16 +1,38 @@
-h3 {
-    color: $color5;
-    text-align: center;
-}
+main {
 
-.shopping-cart {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 50px;
-    justify-content: space-around;
-    gap: 30px;
+    container {
 
-    .card {
-        border: #000000 3px solid;
+        .shopping-cart {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            justify-content: space-around;
+            gap: 30px;
+            list-style: none;
+    
+            .product-card {
+                border: #000000 3px solid;
+                border-radius: 10px;
+                background-color: aliceblue;
+                padding: 15px;
+                height: auto;
+                width: 900px;
+
+                img {
+                    padding-bottom: 30px;
+                }
+
+                .add-to-cart {
+                    border: #000000 1px solid;
+                    text-align: center;
+                    padding: 10px;
+                }
+            
+            }
+        
+        }
+
     }
+
 }

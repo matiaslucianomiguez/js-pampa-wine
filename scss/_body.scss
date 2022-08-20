@@ -1,3 +1,19 @@
 body{
     background-color: $color1;
+
+    container {
+        
+        .secondary-logo-webpage-body {
+            height: 250px;
+            width: 250px;
+            margin-left: 50px;
+        }
+
+        nav {
+            border: white 2px solid;
+            
+        }
+
+    }
+
 }

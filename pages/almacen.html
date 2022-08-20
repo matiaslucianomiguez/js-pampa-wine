@@ -40,180 +40,255 @@
 
 
     <body>     
-
-        <!-- Webpage navbar -->
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-
-            <div class="container-fluid">
+        
+        <container>
             
-                <a href="index.html"> <img src="images/logo-ciudad-limpia.jpg" id="logo-ciudad-limpia" alt "Logo de la Empresa"></a>
+            <!-- Webpage navbar -->
 
-                <button class="navbar-toggler bg-success p-2 text-dark bg-opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+                    <div class="container-fluid">
                     
-                    <ul class="navbar-nav text-success">
-                    
-                        <li class="nav-item">
-                        <a class="nav-link" href="pagina-principal.html">Inicio</a>
-                        </li>
+                        <button class="navbar-toggler bg-success p-2 text-dark bg-opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
                         
-                        <li class="nav-item">
-                        <a class="nav-link" href="nuestra-historia.html">Nuestra Historia</a>
-                        </li>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            
+                            <ul class="navbar-nav text-success">
+                            
+                                <li class="nav-item">
+                                <a class="nav-link" href="pagina-principal.html">Inicio</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                <a class="nav-link" href="nuestra-historia.html">Nuestra Historia</a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                <a class="nav-link" href="bar-de-vinos.html">Bar de Vinos</a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                <a class="nav-link" href="almacen.html">Almacén</a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                            
+                            </ul>
+                        
+                        </div>
                     
-                        <li class="nav-item">
-                        <a class="nav-link" href="bar-de-vinos.html">Bar de Vinos</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                        <a class="nav-link" href="almacen.html">Almacén</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    
-                    </ul>
-                
-                </div>
-            
-            </div>
+                    </div>
 
-        </nav>
-
-
-        <header>
+                </nav>
 
             <!-- Webpage logo -->
+            
+                <img src="../images/pampa-wine-logo.svg" class="secondary-logo-webpage-body" alt="Pampa Wine Logo">
+        
+        </container>
 
-            <img src="../images/pampa-wine-logo.svg" alt="Pampa Wine Logo">
+        
+        <header>
+
+            <!-- Webpage subtitle -->
+
+            <h3>Almacén</h3>
 
         </header>  
 
 
         <main>
 
-            <h3>Almacén</h3>
+            <!-- Shopping Cart - Red Wine Bottles -->
 
-            <!-- Shopping Cart -->
+                <container class="shopping-cart-red-wine-bottles">
 
-            <div class="shopping-cart">
+                    <ul class="shopping-cart">
 
-                <!-- Red Wine Bottles -->
-                
-                    <div class="card" style="width: 18rem;">
-                        
-                        <img src="../images/shopping cart/vino.png" class="card-img-top" alt="Vino">
-                        
-                        <div class="card-body">
-                        
-                            <h5 class="card-title">Botella de Vino 1: Malbec</h5>
-                        
-                            <p class="card-text">Precio: $ 600,00</p>
-                        
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        
-                        </div>
-                    
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        
-                        <img src="../images/shopping cart/vino.png" class="card-img-top" alt="Vino">
-                        
-                        <div class="card-body">
-                        
-                            <h5 class="card-title">Botella de Vino 2: Cabernet Sauvignon</h5>
-                        
-                            <p class="card-text">Precio: $ 600,00</p>
-                        
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        
-                        </div>
-                    
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        
-                        <img src="../images/shopping cart/vino.png" class="card-img-top" alt="Vino">
-                        
-                        <div class="card-body">
-                        
-                            <h5 class="card-title">Botella de Vino 3: Syrah</h5>
-                        
-                            <p class="card-text">Precio: $ 550,00</p>
-                        
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        
-                        </div>
-                    
-                    </div>
-
-                <!-- Turkey -->
-            
-                    <div class="card" style="width: 18rem;">
-                        
-                        <img src="../images/shopping cart/pavo.png" class="card-img-top" alt="Pavo">
-                        
-                        <div class="card-body">
-                        
-                            <h5 class="card-title">Comida 1: Pavo</h5>
-                        
-                            <p class="card-text">Precio: $ 1500,00</p>
-                        
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        
-                        </div>
-
-                    </div>
-
-                <!-- Corn -->
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/vino-tinto.png" class="card-img-top" alt="Vino">
                             
-                <div class="card" style="width: 18rem;">
-                                        
-                    <img src="../images/shopping cart/maiz.png" class="card-img-top" alt="Maíz">
-                    
-                    <div class="card-body">
-                    
-                        <h5 class="card-title">Comida 2: Choclo</h5>
-                    
-                        <p class="card-text">Precio: $ 150,00</p>
-                    
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    
-                    </div>
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 1: Malbec</h5>
+                            
+                                <p class="card-text">Precio: $ 600,00</p>
+                            
+                            </div>
 
-                </div>
+                            <div class="add-to-cart">
 
-                <!-- Honey Pot -->
+                                <a class="btn btn-primary" href="#" role="button">Agregar al Carrito</a>
 
-                    <div class="card" style="width: 18rem;">
-        
-                        <img src="../images/shopping cart/miel.png" class="card-img-top" alt="Miel">
+                            </div>
                         
-                        <div class="card-body">
+                        </li>
                         
-                            <h5 class="card-title">Comida 3: Miel</h5>
-                        
-                            <p class="card-text">Precio: $ 500,00</p>
-                        
-                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                        
-                        </div>
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/vino-tinto.png" class="card-img-top" alt="Vino">
+                            
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 2: Cabernet Sauvignon</h5>
+                            
+                                <p class="card-text">Precio: $ 600,00</p>
+                            
+                            </div>
 
-                    </div>
+                            <div class="add-to-cart">
+
+                                <a class="btn btn-primary" href="#" role="button">Agregar al Carrito</a>
+
+                            </div>
+
+                        </li>
+
+                        <li class="product-card" style="width: 18rem;">
+                            
+                            <img src="../images/shopping cart/vino-tinto.png" class="card-img-top" alt="Vino">
+                            
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 3: Syrah</h5>
+                            
+                                <p class="card-text">Precio: $ 550,00</p>
+                            
+                            </div>
+
+                            <div class="add-to-cart">
+
+                                <a class="btn btn-primary" href="#" role="button">Agregar al Carrito</a>
+
+                            </div>
+                        
+                        </li>
+
+                    </ul>
+
+                </container>
             
-            </div>
-            
-            
-            
-            
-            
-            
+            <!-- Shopping Cart - White Wine Bottles -->
+
+                <container class="shopping-cart-white-wine-bottles">
+
+                    <ul class="shopping-cart">
+
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/vino-blanco.png" class="card-img-top" alt="Vino">
+                            
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 1: Chardonnay</h5>
+                            
+                                <p class="card-text">Precio: $ 600,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+                        
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/vino-blanco.png" class="card-img-top" alt="Vino">
+                            
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 2: Sauvignon Blanc</h5>
+                            
+                                <p class="card-text">Precio: $ 600,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+
+                        <li class="product-card" style="width: 18rem;">
+                            
+                            <img src="../images/shopping cart/vino-blanco.png" class="card-img-top" alt="Vino">
+                            
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Botella de Vino 3: Torrontes</h5>
+                            
+                                <p class="card-text">Precio: $ 550,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+
+                    </ul>
+
+                </container>
+
+            <!-- Shopping Cart - Food -->
+
+                <container class="shopping-cart-food">
+
+                    <ul class="shopping-cart">
+
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/pavo.png" class="card-img-top" alt="Pavo">
+                    
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Comida 1: Pavo</h5>
+                            
+                                <p class="card-text">Precio: $ 1500,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+                        
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/maiz.png" class="card-img-top" alt="Maíz">
+                    
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Comida 2: Choclo</h5>
+                            
+                                <p class="card-text">Precio: $ 150,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+                        
+                        <li class="product-card" style="width: 18rem;">
+                                
+                            <img src="../images/shopping cart/miel.png" class="card-img-top" alt="Miel">
+                        
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Comida 3: Miel</h5>
+                            
+                                <p class="card-text">Precio: $ 500,00</p>
+                            
+                                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                            
+                            </div>
+                        
+                        </li>
+
+                    </ul>
+
+                </container>
+
             <!-- JS sheet link -->
 
             <script src="main.js"></script>

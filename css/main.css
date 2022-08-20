@@ -1,9 +1,16 @@
 body {
   background-color: #41436A; }
+  body container .secondary-logo-webpage-body {
+    height: 250px;
+    width: 250px;
+    margin-left: 50px; }
+  body container nav {
+    border: white 2px solid; }
 
-header {
+header h3 {
+  color: #f0f8ff;
   text-align: center;
-  margin-top: 40px;
+  font-size: 48px;
   margin-bottom: 50px; }
 
 h1 {
@@ -29,15 +36,24 @@ h2 {
         transform: scale(1.3);
         transition: all 0.5s ease; } }
 
-h3 {
-  color: #f0f8ff;
-  text-align: center; }
-
-.shopping-cart {
+main container .shopping-cart {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 50px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   justify-content: space-around;
-  gap: 30px; }
-  .shopping-cart .card {
-    border: #000000 3px solid; }
+  gap: 30px;
+  list-style: none; }
+  main container .shopping-cart .product-card {
+    border: #000000 3px solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+    height: auto;
+    width: 900px; }
+    main container .shopping-cart .product-card img {
+      padding-bottom: 30px; }
+    main container .shopping-cart .product-card .add-to-cart {
+      border: #000000 1px solid;
+      text-align: center;
+      padding: 10px; }
